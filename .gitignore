@@ -68,6 +68,7 @@ public/uploads/
 storage/
 Claude.zip
 src/controller/Claude.ts
+Claude.ts
 src/firebase/serviceAccountKey.json
 
 # Optional: Ignore lock files (if you don’t want to commit them)
