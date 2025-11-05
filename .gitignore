@@ -1,0 +1,75 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# Build output
+dist/
+build/
+out/
+.tmp/
+.temp/
+.cache/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+*.pid
+*.seed
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+
+# Mediasoup specific temp files (if any recordings/temp sockets)
+recordings/
+tmp/
+temp/
+*.sock
+*.pipe
+
+# Docker
+docker-compose.override.yml
+.docker/
+*.local.yml
+
+# Test coverage / reports
+coverage/
+.nyc_output/
+
+# SSL certificates (local dev)
+certs/
+*.pem
+*.crt
+*.key
+
+# Optional: Ignore uploaded media files if any
+uploads/
+public/uploads/
+storage/
+Claude.zip
+src/controller/Claude.ts
+src/firebase/serviceAccountKey.json
+
+# Optional: Ignore lock files (if you don’t want to commit them)
+# yarn.lock
+# pnpm-lock.yaml

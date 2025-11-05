@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "module",
+  "scripts": {
+    "dev": "set DEBUG=mediasoup:* && nodemon --exec ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "async-mutex": "^0.5.0",
+    "bcrypt": "^6.0.0",
+    "color-hash": "^2.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mediasoup": "^3.19.2",
+    "mongoose": "^8.18.1",
+    "nanoid": "^5.1.6",
+    "nodemon": "^3.1.10",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/color-hash": "^2.0.0",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.10.0",
+    "@types/socket.io": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
